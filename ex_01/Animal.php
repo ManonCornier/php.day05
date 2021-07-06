@@ -36,6 +36,4 @@ class Animal {
         return $this->type;
     }
 }
-$isidore = new Animal("Isidore", 4, "mamal");
-echo $isidore->getName() . " has " . $isidore->getLegs() . " legs and is a " .$isidore->getType() . ".\n";
 ?>
